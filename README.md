@@ -12,9 +12,9 @@
 Example code for search box is as follow:
 ```html
 <span id="searchBox">
-      <input id="your_searchbox_id" type="text" placeholder="speak or type>
+      <input id="searchText" type="text" placeholder="speak or type>
       <button style="position: absolute;">Search</button>
-      </span>
+</span>
 ```
 
 ## Enable speech 🎙 in search
@@ -38,3 +38,5 @@ Example code for search box is as follow:
 <button class="record_btn" id="micButton" style="font-size: 20px; vertical-align: top; margin-right: -70%; z-index: 1;  position: relative;"></button>
 ```
 You can positon the button according to your webpage and change the paramereters like font-size,margin etc. accordingly.
+
+_NOTE: Do not insert mic button inside span/div containing input box and search button_
