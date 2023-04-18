@@ -9,7 +9,7 @@
 
 
 
-Code for search box is as follow:
+- Code for search box is as follow:
 ```html
 <span id="searchBox">
       <input id="searchText" type="text" placeholder="speak or type">
