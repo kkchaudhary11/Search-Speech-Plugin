@@ -9,23 +9,23 @@
 
 
 
-Example code for search box is as follow:
+Code for search box is as follow:
 ```html
 <span id="searchBox">
-      <input id="searchText" type="text" placeholder="speak or type>
+      <input id="searchText" type="text" placeholder="speak or type">
       <button style="position: absolute;">Search</button>
 </span>
 ```
 
 ## Enable speech 🎙 in search
-- Include following css line in the head section
+- Include following css line in the `head` section
 ``` html
 <link rel="stylesheet" type="text/css" href="https://speechindia.in/lib/asr/mic.css">
 ```
-- Include following javascript code before `</body>` tag
+- Include following javascript code before  ending `</body>` tag
 ``` js
 <script>
-  var transcribed_text = document.getElementById("your_searchbox_id");
+  var transcribed_text = document.getElementById("searchText");
 </script>
 ```
 ``` html
