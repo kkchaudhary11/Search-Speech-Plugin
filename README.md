@@ -23,15 +23,14 @@ Code for search box is as follow:
 <link rel="stylesheet" type="text/css" href="https://speechindia.in/lib/asr/mic.css">
 ```
 - Include following javascript code before  ending `</body>` tag
-``` js
+``` html
 <script>
   var transcribed_text = document.getElementById("searchText");
 </script>
-```
-``` html
+
 <script src="https://speechindia.in/lib/asr/RecordRTC.js"></script>
 <script src="https://speechindia.in/lib/asr/hark.js"></script>
-<script src="https://speechindia.in/lib/asr/hark.js"></script>
+<script src="https://speechindia.in/lib/asr/asr_app.js"></script>
 ```
 - Use the follwing line to render speech icon on the wepage
 ``` html
