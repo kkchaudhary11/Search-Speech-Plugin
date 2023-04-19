@@ -41,3 +41,5 @@
 >_NOTE: Do not insert mic button inside span/div containing input box and search button_
 
 ## You can find the demo [here](https://speechindia.in/)
+
+## Find more info about search library [here](https://marcoboschi.altervista.org/en/js/5/)
